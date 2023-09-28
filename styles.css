@@ -1,0 +1,104 @@
+@font-face {
+    src: url(font/Mooli-Regular.ttf);
+    font-family: cursive;
+}
+
+body {
+    background-color: white; /* chace the background color*/
+    font-family: Arial, sans-serif;
+    background-color: white;   
+    letter-spacing: 3px;
+    text-shadow: 5px 5px 5px ; /*text with shadow*/
+    
+}
+
+
+    header {
+    text-align: center;
+    background-color: rgb(33, 31, 31);
+    color: azure;
+    padding: 10px;
+    font-family: cursive;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-kerning: normal;
+}
+
+
+.main {
+    margin: 20px;
+    background-color: white;
+}
+
+.lyrics {
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid grey;
+    background-color: black;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+}
+
+
+img{
+width: 200px;
+height: auto;
+
+}
+img:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+
+p{
+    color:white;
+}
+
+div p{
+    color:bisque;
+}
+
+.imagine p{
+    color:white;
+}
+.mytext p{
+    color:bisque;
+}
+
+button{
+position:relative;
+width: 200px;
+padding: 15px 0;
+text-align: center;
+margin: 20px 10px;
+font-weight: bold;
+border: 2px solid white;
+background: transparent;
+color: #fff;
+cursor: pointer;
+overflow: hidden;
+text-transform: uppercase;
+}
+span{
+    background: green;
+    height: 100%;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 1s;
+}
+
+button:hover span{
+    width: 100%;
+}
+
+
